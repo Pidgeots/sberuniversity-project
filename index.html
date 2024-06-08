@@ -16,7 +16,11 @@
   </head>
   <body>
     <header>
-      <img class="header__logo" src="img/logo.svg" alt="ТЫ ОШИБСЯ!" />
+      <img
+        class="header__logo"
+        src="img/logo.svg"
+        alt="Не удалось загрузить картинку!"
+      />
 
       <div class="header__controls">
         <a href="#contacts">Контакты</a>
@@ -32,12 +36,91 @@
           света
         </p>
         <button class="about__learn">
-          Узнать подробнее <i class="fa-solid fa-angle-right"></i>
+          Узнать подробнее <i class="fa-solid fa-chevron-right"></i>
         </button>
       </div>
       <div class="about__images animate__animated animate__fadeInRight">
         <img class="about__sun-image" src="img/sun.png" />
         <img class="about__image" src="img/solar-panel.png" />
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="cards">
+        <div class="card">
+          <div class="card__logo">
+            <i class="fa-solid fa-solar-panel"></i>
+          </div>
+          <h3>Уменьшите счета за электричество</h3>
+          <p>
+            Используйте чистую солнечную энергию для питания своего дома:
+            уменьшите зависимость от электросети и счета за электричество.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__logo monitoring">24/7</div>
+          <h3>Мониторинг электроэнергии</h3>
+          <p>
+            Управляйте своей системой солнечных панелей из любой точки мира с
+            помощью специального мобильного приложения.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__logo"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Максимальная эффективность</h3>
+          <p>
+            Солнечные панели GreenRobotic обеспечивают максимальное производство
+            энергии круглый год, даже на крышах со сложными углами.
+          </p>
+        </div>
+      </div>
+      <div class="features__border"></div>
+      <div class="features__feedback">
+        <div class="features__feedback-left">
+          <h2>Нам доверяет<br />5000+ счастливых клиентов</h2>
+          <p>
+            Мы помогли тысячам людей перейти на зеленую энергию.<br />После
+            заказа мы позаботимся обо всем: доставка панелей, проект, установка,
+            помощь в использовании.
+          </p>
+        </div>
+        <div class="features__feedback-right">
+          <div class="features__box features__savings-box">
+            <h3>30 млн ₽</h3>
+            <p>Помогаем экономить нашим клиентам ежемесячно</p>
+          </div>
+          <div class="features__box features__rate-box">
+            <h3>4.7</h3>
+            <p class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+            <p>Средняя оценка наших клиентов</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="promo__image"></div>
+      <div class="promo__right">
+        <div class="promo_card_right">
+          <h2>Зарядите свой дом</h2>
+          <p>
+            <span class="circle"></span>
+            Солнечные панели сертифицированы мировыми экспертами: система
+            безопасна и надежна.
+          </p>
+          <p>
+            <span class="circle"></span>
+            Следите за накоплением энергии вашего дома в режиме реального
+            времени и настраивайте процент расхода и накопления энергии.
+          </p>
+          <div class="promo_card_right-btn">
+            <button>Заказать <i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -76,6 +159,7 @@
         </form>
       </div>
     </section>
+
     <footer>
       <div class="footer__container">
         <div class="footer__group">
